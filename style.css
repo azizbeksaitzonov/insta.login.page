@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.953);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    width: 340px;
+    height: 477px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 21px 31px #9399b026 ;
+}
+
+.inst h1{
+    font-size: 20px;
+}
+.inst{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.inp{
+    width: 95%;
+    height: 42px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 10px;
+    padding: 10px;
+    
+}
+
+.inp input{
+    padding: 12px;
+    border-radius: 6px;
+    background-color: #FAFAFA;
+    border: none;
+    color: black;
+}
+
+.a{
+    margin-top: 80px;
+    width: 89%;
+    padding: 12px;
+    border-radius: 6px;
+    background: linear-gradient(270deg, #A336BD -5%,  #FF387D 30%, #FF5D34 70%,#FFAA1B 105% );
+    color: white;
+    border: none;
+
+}
+
+.hr{
+    width: 89%;
+    height: 1px;
+    border: 1px solid rgba(128, 128, 128, 0.485);
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hr1{
+    width: 50px;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    color: grey;
+    font-size: 12px;
+
+}
+
+.b{
+    margin-top: 30px;
+    width: 89%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 2px solid #1877F2;
+    color: #1877F2;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 10px;
+    background-color: white;
+}
+
+.pop{
+    width: 89%;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15px;
+}
+.pop h2{
+    font-size: 12px;
+}
+.pop hr{
+    width: 70px;
+    margin-top: 15px;
+    background-color: rgba(128, 128, 128, 0.301);
+}
+
+.pop h3{
+    color: #1877F2;
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.a:hover{
+    margin-top: 80px;
+    width: 89%;
+    padding: 12px;
+    border-radius: 6px;
+    background: linear-gradient(270deg, #A336BD -5%,  #FF387D 30%, #FF5D34 70%,#FFAA1B 105% );
+    color: white;
+    border: none;
+    cursor: pointer;
+}
